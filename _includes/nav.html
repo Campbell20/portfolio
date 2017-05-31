@@ -9,19 +9,25 @@
         
     nav ul>li {
         display: inline;
+        border-right: 3px solid black;
+        padding-left: 4px
         
+    }
+    
+    li:last-child {
+        border-right: none;
     }
     
     nav {
         position: fixed;
         background-color: white;
-        height: 40px;
+        height: 60px;
         width: 100%;
         font-size: 30px;
         font-family: Oxygen;
         padding: 0;
         margin: 0;
-        
+       
     }
     
     
@@ -48,11 +54,9 @@
 </style>
 <nav>
     <ul>
-        <li>John Campbell</li>
-        <li>|</li>
-         
+        <li><span style="padding-right: 60%">John Campbell</span></li>
         <li>
-            <a href="/portfolio/">Home</a>
+            <a href="/portfolio/"> Home</a>
         </li>
         <li>
             <a href="/portfolio/blog.html">Blog</a>
