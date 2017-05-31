@@ -1,0 +1,16 @@
+---
+layout: default
+---
+<style>
+.posts-hero {
+    background:#FFF url('https://xtensio.com/wp-content/uploads/2016/01/laptop-mobile_cropped.png') 0 5% no-repeat;
+    background-size: cover;
+    height: 300px;
+}
+
+</style>
+<div class="posts-hero"></div>
+<h2 class="spacing">{{ page.title }}</h2>
+<p>{{ page.date | date: '%B %d, %Y' }}</p>
+
+{{ content }}
