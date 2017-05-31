@@ -1,30 +1,69 @@
 ---
 ---
 
-.area-welcome {
+.area-home {
     // z-index: -1;
-    background-color:#f94f4f;
+    background-color: #f94f4f;
     margin:0;
     padding-top:50px;
     color: white;
     text-align: center;
     font-family: Oxygen, sans-serif, serif;
+    padding-bottom:0;
+    margin: 0;
+    font-weight: normal;
     
 }
 
-h1 {
-    font-size:400%;
+
+
+.area-home h1 {
+    font-size:500%;
 }
 
-p {
+.area-home p {
     font-size:250%;
     color:#747474;
+    font-weight: normal;
 }
 
-strong {
+.area-home strong {
     color: white;
 }
 
-a {
+.area-home a {
     font-size:150%;
+    color:#747474;
+    font-weight: normal;
+}
+
+.area-overview {
+    background:#FFF url('http://forthemathematics.com/wp-content/uploads/2017/04/Binary-Code.jpg') 0 100% no-repeat;
+    background-size: 100%;
+    height: 500px;
+    color: white;
+    text-align: center;
+    font-family: Oxygen;
+    padding: 0;
+    margin: 0;
+}
+
+.area-overview h1 {
+    padding-top: 150px;
+    margin: 0;
+    font-size: 500%;
+    font-weight: normal;
+    text-shadow:
+        -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000; 
+}
+
+.area-overview h2 {
+    display: inline-block;
+    background-clip: border-box;
+    background-color: red;
+    padding: 10px;
+    
 }
