@@ -1,3 +1,8 @@
+#Name
+name: John Campbell
+
+#Bio
+description: Soon to be - Web Developer
 
 # Custom Excludes
 exclude: [gulpfile.js, package.json, node_modules]
