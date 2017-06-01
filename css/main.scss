@@ -1,9 +1,10 @@
 ---
 ---
-
+/*home section, mostly red with black and white font */
 .area-home {
     // z-index: -1;
     background-color: #f94f4f;
+    height:1080px;
     margin:0;
     padding-top:50px;
     color: white;
@@ -11,19 +12,18 @@
     font-family: Oxygen, sans-serif, serif;
     padding-bottom:0;
     margin: 0;
-    font-weight: normal;
+    
     
 }
 
-
-
 .area-home h1 {
     font-size:500%;
+    font-weight: normal;
 }
 
 .area-home p {
     font-size:250%;
-    color:#747474;
+    color:#d0d0d0;
     font-weight: normal;
 }
 
@@ -37,19 +37,22 @@
     font-weight: normal;
 }
 
+
+// overview section, mostly blue with white font
 .area-overview {
-    background:#FFF url('http://forthemathematics.com/wp-content/uploads/2017/04/Binary-Code.jpg') 0 100% no-repeat;
+    background:#FFF url('http://i.imgur.com/O8gOCMG.gif') 0 100% no-repeat;
     background-size: 100%;
-    height: 500px;
+    height: 1000px;
     color: white;
-    text-align: center;
     font-family: Oxygen;
     padding: 0;
     margin: 0;
+    text-align: center;
+    vertical-align: middle;
 }
 
 .area-overview h1 {
-    padding-top: 150px;
+    padding-top: 20%;
     margin: 0;
     font-size: 500%;
     font-weight: normal;
@@ -61,9 +64,63 @@
 }
 
 .area-overview h2 {
+
     display: inline-block;
     background-clip: border-box;
     background-color: red;
     padding: 10px;
     
+}
+
+
+//skill section
+
+
+
+//resume section
+.right-column-align {
+    // border-left: 1px solid black;
+    padding-left: 10px;
+}
+
+/*paragraph*/
+.paragraph-head {
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 24px;
+    color:#ba1c00;
+}
+
+.paragraph-info {
+    font-size: 18px;
+    margin:0;
+}
+
+.paragraph-subhead {
+    font-weight: 900;
+    font-size: 20px;
+    margin: 0;
+    
+}
+
+ul.paragraph-list {
+    margin:0;
+    padding-left: 23px;
+}
+
+.paragraph-list li {
+    font-size: 18px;
+    border: 0px;
+}
+
+.paragraph-list-experience {
+    list-style-position:10px;
+    font-size: 18px;
+    border: 0px;
+    margin:0;
+    padding-left:23;
+}
+        
+body {
+    background-color:white;
 }
